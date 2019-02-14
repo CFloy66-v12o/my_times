@@ -7,6 +7,7 @@ body {
   margin: 0;
   padding: 0;
 }
+/* header */
 
 header {
   display: flex;
@@ -23,8 +24,53 @@ header {
 }
 
 .logo {
+display: flex;
+align-items: center;
+flex-grow: 1;
+padding-left: 30px;
+}
+
+
+.logo img {
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
+}
+
+.logo span {
+  color: mediumaquamarine;
+}
+
+/* Main Content */
+
+.content {
   display: flex;
-  align-items: center;
-  flex-grow: 1;
-  padding-left: 30px;
+  width: 1232px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 78px;
+  margin-left: auto;
+  padding-top: 116px;
+}
+
+div {
+  border: 1px solid black;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column-large {
+  width: 630px;
+}
+
+.column-medium {
+  width: 300px;
+}
+
+.column-small {
+  width: 240px;
 }
