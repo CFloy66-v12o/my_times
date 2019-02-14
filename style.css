@@ -2,3 +2,26 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: inline-flex;
+}
+
+.page-title {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+h2 {
+
+}
+
+.main-nav {
+  display: inline-block;
+}
